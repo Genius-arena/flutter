@@ -2,13 +2,22 @@
   "name": "flutter",
   "version": "1.0.0",
   "description": "For flutterwave task",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "author": "ubongabasi",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Genius-arena/flutter.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Genius-arena/flutter/issues"
+  },
+  "homepage": "https://github.com/Genius-arena/flutter#readme"
 }
